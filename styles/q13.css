@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.object{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.a{
+    background-color: green;
+    animation: move 3s linear infinite 1s;
+}
+
+.b{
+    background-color: red;
+    animation: move 3s linear infinite 3s;
+}
+
+.c{
+    background-color: blue;
+    animation: move 3s linear infinite 5s;
+}
+
+@keyframes move{
+    0% , 50% , 100%{
+        bottom: 0;
+    }
+    25% {
+        bottom: 300px;
+    }
+    75% {
+        bottom: -300px;
+    }
+}

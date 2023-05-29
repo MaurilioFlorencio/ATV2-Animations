@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.object{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.object:hover {
+    background-color: black;
+}

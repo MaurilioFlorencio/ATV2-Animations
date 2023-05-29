@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.object{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.object:hover{
+    animation: transform 2s linear forwards;
+}
+
+@keyframes transform{
+    100% {
+        background-color: green;
+        width: 200px;
+        height: 100px;
+        border-radius: 0px;
+    }
+}

@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.object{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    animation: rotate 9s ease-in-out infinite 1s;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    12.5%{
+        transform: rotate(45deg);
+        background-color: yellow;
+    }
+    25%{
+        transform: rotate(90deg);
+        background-color: orange;
+    }
+    37.5%{
+        transform: rotate(135deg);
+        background-color: brown;
+    }
+    50% {
+        transform: rotate(180deg);
+        background-color: gray;
+    }
+    62.5% {
+        transform: rotate(225deg);
+        background-color: red;
+    }
+    75% {
+        transform: rotate(270deg);
+        background-color: purple;
+    }
+    87.5% {
+        transform: rotate(315deg);
+        background-color: blue;
+    }
+    100% {
+        transform: rotate(360deg);
+        background-color: green;
+    }
+}

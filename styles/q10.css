@@ -1,0 +1,29 @@
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    animation: move 3s linear 1s forwards;
+}
+
+@keyframes move{
+    0%{
+        right: 0;
+        bottom: 0;
+        width: 200px;
+        height: 200px;
+    }
+    100% {
+        right: 48%;
+        bottom: 45.5%;
+        width: 70px;
+        height: 70px;
+    }
+}
+

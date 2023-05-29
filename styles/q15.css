@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.object{
+    position: relative;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    animation: move 5s linear infinite 1s;
+}
+
+@keyframes move{
+    0% , 100%{
+        left: 0;
+        top: 0;
+    }
+    16.6% {
+        left: 100vh;
+        top: 20vh;
+    }
+    33.3% {
+        left: 0;
+        top: 50vh;
+    }
+    66.6% {
+        left: -100vh;
+        top: 5vh;
+    }
+    83.2% {
+        left: 0;
+        top: -50vh;
+    }
+}

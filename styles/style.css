@@ -1,0 +1,37 @@
+.title > h2{
+    margin: 5px 5px 15px 5px;
+}
+
+header{
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justfity-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justfity-content: flex-start;
+    align-items: flex-start;    
+    width: 100%;
+}
+
+section > a {
+    color: black;
+    padding: 1% 20%;
+}
+
+section > a > h2 {
+    color: black;
+    margin: 0;
+}
+
+section > a > h2:hover{
+    color: blue;
+}
+section > a:hover{
+    color: blue;
+}

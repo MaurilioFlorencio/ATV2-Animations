@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.object{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    animation: pulse 5s linear infinite 1s;
+}
+
+@keyframes pulse{
+    0%{
+        width: 200px;
+        height: 200px;
+        transform: rotate(0deg) ;
+    }
+    50% {
+        width: 500px;
+        height: 500px;
+        transform: rotate(180deg)
+    }
+    100%{
+        width: 200px;
+        height: 200px;
+        transform: rotate(360deg)
+    }
+}

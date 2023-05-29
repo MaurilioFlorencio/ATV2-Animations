@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.object{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 100px;
+}
+
+.object:hover{
+    animation: pulse 5s linear infinite;
+}
+
+@keyframes pulse{
+    100% {
+        background-color: white;
+        width: 500px;
+        height: 500px;
+        border-radius: 250px;
+    }
+}

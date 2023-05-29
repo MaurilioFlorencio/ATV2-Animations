@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.object{
+    position: relative;
+    animation: spawn 5s ease-out infinite 1s;
+}
+
+@keyframes spawn{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    40%{
+        background-color: red;
+    }
+    60%{
+        background-color: blue;
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+    }
+}
